@@ -10,7 +10,7 @@ body{
 }
 .calculator{
 	background: linear-gradient(45deg, rgba(82, 80, 80, 0.1)15%, rgba(21, 21, 21, 0.5)50%), rgba(22, 22, 24, 0.7)25%;
-  transform: perspective(800px) rotateX(165deg);
+  transform: perspective(800px) rotateX(15deg);
 	padding: 22px;
 	height: max-content;
 	border-radius: 1rem;
@@ -22,6 +22,11 @@ body{
 	height: 80px;
 	background: rgb(157, 200, 219);
 	/* border: none; */
+}
+input[type="text"] {
+	font-size: 1.5rem;
+	color: #fff;
+	text-align: left;
 }
 
 input[type="button"] {
